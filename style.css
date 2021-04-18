@@ -25,5 +25,25 @@ body {
     border-radius: 5%;
 }
 .pop-box {
-    
+    user-select: none;
+    width: 400px;
+    background: #f2f2f2;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    border:1px solid #b3b3b3;
+    box-shadow: 0px 5px 10px rgba(0,0,0,.2);
+    z-index: 9999;
+
+}
+.pop-box > i {
+    font-size: 60px;
+    color : #eb9447;
+    border: 5px solid #eb9447;
+    padding: 20px 40px;
+    border-radius: 50%;
+    margin: -10px 0 20px 0;
+}
+.pop-box >h1 {
+    color: black;
 }
